@@ -2,6 +2,9 @@
   "name": "astro-blog-tut",
   "type": "module",
   "version": "0.0.1",
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,6 +13,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.3.1"
+    "@astrojs/image": "^0.16.6",
+    "@astrojs/rss": "^2.4.1",
+    "@astrojs/sitemap": "^1.3.1",
+    "astro": "^2.3.1",
+    "astro-icon": "^0.8.0",
+    "postcss": "^8.4.23",
+    "postcss-preset-env": "^8.3.2",
+    "sharp": "^0.31.3"
   }
 }
